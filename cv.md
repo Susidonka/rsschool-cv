@@ -6,8 +6,8 @@
 
 ## About me
 
-I want to go training on frontend development at Roling Scopes course
-</br>
+I want to go training on frontend development at Roling Scopes course  
+
 I have a desire to work in this field
  about me
  
@@ -22,11 +22,15 @@ I have a desire to work in this field
 ## Code examples
 
 ``` const age = 45
-if (!(age >= 0 && age < 5 || age >= 65)) {
-   console.log("You are not a baby or senior")
+if (!(age >= 0 && age < 5 || age >= 65)) {  
+
+   console.log("You are not a baby or senior")  
+
 }
-const firstName = prompt("Enter your first name")
-if (!firstName) { prompt("TRY AGAIN") 
+const firstName = prompt("Enter your first name")  
+
+if (!firstName) { prompt("TRY AGAIN")  
+
 }
 ```
 ## Education
@@ -34,7 +38,8 @@ if (!firstName) { prompt("TRY AGAIN")
 * Online courses on the platporme Udemy (HTML,CSS)
 * Online course Roling Scopes (stage0)
 * I'm learning English on the youtube channel
-## English
+
+## English  
 
 **ELEMENTARY** <br> 
 (Learning English from the channel and the mobile app) 
