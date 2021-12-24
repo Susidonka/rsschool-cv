@@ -21,45 +21,51 @@ I have a desire to work in this field
 
 ## Code examples
 
-``` <h1>Race Registration!</h1>
-    <form action="/registration">
-        <div>
-            <Label for="username">First Name</Label>
-            <input type="text" id="username" name="username" placeholder="First name" required>
-            <label for="lastname">Last Name</label>
-            <input type="text" id="lastname" name="austname" placeholder="Last name" required>
-        </div>
-        <p>Select a Rase:
-        </p>
-        <div>
-            <input type="radio" name="select" id="funrun" value="Fun Run 5k" required>
-            <label for="funrun">Fun Run 5k</label>
-        </div>
-        <div> <input type="radio" name="select" id="hulf" value="Hulf marathon" required>
-            <label for="hulf">Hulf Muruthon </label>
-        </div>
-        <div> <input type="radio" id="full" name="select" value="Full Marathon" required>
+```
+<body>
+    <h1>Race Registration!</h1>  
+    <form action="/registration">  
+        <div>  
+            <Label for="username">First Name</Label>  
+            <input type="text" id="username" name="username" placeholder="First name" required>  
+            <label for="lastname">Last Name</label>  
+            <input type="text" id="lastname" name="austname"   placeholder="Last name" required>  
+        </div>  
+        <p>Select a Rase:  
+
+        </p>  
+
+        <div>  
+            <input type="radio" name="select" id="funrun" value="Fun Run 5k" required>  
+            <label for="funrun">Fun Run 5k</label>  
+        </div>  
+        <div> <input type="radio" name="select" id="hulf" value="Hulf marathon" required>  
+            <label for="hulf">Hulf Muruthon </label>  
+        </div>  
+        <div> <input type="radio" id="full" name="select" value="Full Marathon" required>  
             <label for="full">Full Marathon</label>
-        </div>
-        <div>
-            <label for="mail">Email</label>
-            <input type="email" id="mail" required name="mail">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="pass" minlength="3" maxlength="13" required>
-        </div>
-        <div>
-            <Label for="age">Select a Group</Label>
-            <select name="age" id="age">
-                <option value="">Under 18</option>
-                <option value="18-30">18-30</option>
-                <option value="30-50" selected>30-50</option>
-                <option value="50+">50+</option>
-            </select>
-        </div>
-        <div>
-            <button>Register</button>
-        </div>
-}
+        </div>  
+        <div>  
+            <label for="mail">Email</label>  
+            <input type="email" id="mail" required name="mail">  
+
+            <label for="password">Password</label>  
+            <input type="password" id="password" name="pass" minlength="3" maxlength="13" required>  
+        </div>  
+        <div>  
+            <Label for="age">Select a Group</Label>  
+            <select name="age" id="age">  
+                <option value="">Under 18</option>  
+                <option value="18-30">18-30</option>    
+                <option value="30-50" selected>30-50</option>  
+                <option value="50+">50+</option>  
+            </select>  
+        </div>  
+        <div>  
+            <button>Register</button>  
+        </div>  
+    </form>  
+ 
 ```
 ## Education
 
