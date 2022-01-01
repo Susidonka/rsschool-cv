@@ -99,6 +99,11 @@ padding: 0 0 0 0px;
    
    box-shadow: 5px 5px 20px #3A394F;
 }
+@media(min-width:320px) and (max-width:870px){
+   .container {
+      transform: scale(1);
+      margin: 0 auto;
+   }}
 @media(min-width:320px) and (max-width:700px){
 nav {
    flex-direction: column;
@@ -108,3 +113,10 @@ nav {
    .cont_header {
       flex-direction: column;
    }}
+
+   @media(min-width:320px) and (max-width:600px){
+      .cont_main , .container_footer {
+         flex-direction: column;
+      }}
+   
+   
