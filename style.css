@@ -4,16 +4,15 @@ body {
    font-size: 16px;
    line-height: 30px;
    font-family: 'Noto Serif', sans-serif;
-   width: 1440px;
+   width: 100%;
 }
 .container {
-   max-width: 800px;
+   width: 55%;
    padding-right: 30px;
    padding-left: 30px;
    margin: 0 auto;
    background-color: #99ACD2; 
-}
-
+}  
 nav {
 display: flex;
 justify-content: space-between;
@@ -36,75 +35,76 @@ nav a:hover{
    border-radius: 5px 30px;
    border: thick double  #C5D2FC;
 }
+h1 {
+   font-size: 3em;
+   line-height: 1em;
+}
 .cont_header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 0 0 30px 0;
 }
 
 .cont_main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: start;
-
+  justify-content: space-evenly;
    background-color: #C5D2FC;
   border-radius: 40px 5px;
+  margin: 0 0 40px 0;
 }
 .skils_user{
-   width: 50%;
-
-  
+   width: 40%; 
 }
 .edic_user {
-   width: 50%;
- 
+   width: 40%;
 }
 .english_user{
-   width: 50%;
-   
-   
+   width: 40%;  
 }
 .contact_user{
-   width: 50%;
-  
+   width: 40%;  
 }
-.code{
-   display: flex;
-   flex-direction: row;
+main .code{
+   padding: 0 0 30px 0;
+}
+pre {
    background-color:#626375;
+   height: 100px;
    width: 100%;
+   margin:0px;
+   padding: 0 0 30px 0;
 }
-h1 {
-
-   font-size: 3rem;
-   line-height: 3rem;
-}
-
 .code h2 {
-   margin: 0 0 0 20px;
+padding: 0 0 0 50px;
 }
 .container_footer {
-   height: 100px;
  display: flex;
  flex-direction: row;
  align-items: flex-end;
  justify-content: space-between;
-}
 
-
-
-/* @media (min-width: 320px),(max-width: 480px) {
-   nav {
-      font-size: 13px;
-    flex-direction: column;
 }
+.git-hub img:hover{
+  
+   border-radius: 15px;
 }
-@media (min-width: 320px),(max-width: 480px) {
-   .cont_main {
-      font-size: 14px;
-      flex-direction: row;
-      flex-wrap: wrap;
+.rs-cshool img{
+   padding: 14px;
+   border-radius: 30px 5px; 
+   background-color:  #C5D2FC;
+}
+.rs-cshool img:hover{
    
+   box-shadow: 5px 5px 20px #3A394F;
 }
-} */
-
+@media(min-width:320px) and (max-width:700px){
+nav {
+   flex-direction: column;
+}
+}
+@media(min-width:320px) and (max-width:870px){
+   .cont_header {
+      flex-direction: column;
+   } 
