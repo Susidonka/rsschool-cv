@@ -1,5 +1,5 @@
 # Susidko Alina
-![foto](154014606228008d6d73915b7505708b914e298d7e0f1e35d299878a7dbf85d48a453b1df19b598e4b35abfbbd31fb5a25bcc93824475982f08c3fff96c6a6ee15da60bab556a.jpg)
+![foto](assets/img/link.jpg))
 ## Contacts
 * E-mail: alinapetr1993@gmail.com;
 * Phone: 38 (095) 4713581
